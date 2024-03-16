@@ -17,7 +17,7 @@ app = Flask(__name__)
 CORS(app)
 
 
-model = YOLO("assets/Yolov8m_b32_e50.pt")
+model = YOLO("assets/Yolov8n_b32_e100.pt")
 botanist_bot = None
 
 def inference(image):
