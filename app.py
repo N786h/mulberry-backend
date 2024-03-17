@@ -17,7 +17,7 @@ app = Flask(__name__)
 CORS(app)
 
 
-model = YOLO("assets/Yolov8n_b32_e100.pt")
+model = YOLO("Yolov8n_b32_e100.pt")
 botanist_bot = None
 
 def inference(image):
@@ -108,7 +108,7 @@ def chat():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)), debug=True)
+    app.run()
 
 
     
