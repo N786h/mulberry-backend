@@ -8,3 +8,4 @@ opencv-python==4.8.0.76
 pandas==2.1.0
 ultralytics==8.0.173
 gunicorn
+python-gevent
